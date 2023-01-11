@@ -30,8 +30,6 @@ public class Test {
 		Jeu j1= new Jeu("mario",c1,b1);
 		Jeu j2= new Jeu("luigi",c2,b1);
 		
-
-		
 		Client client1 =new Client("Eliot","Doremi");
 		Client client2 =new Client("Bartis","Salvador");
 		client1.ajoutAchats(j1);
