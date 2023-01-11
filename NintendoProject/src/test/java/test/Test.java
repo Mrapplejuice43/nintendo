@@ -1,5 +1,7 @@
 package test;
 
+import model.Adresse;
+import model.Boutique;
 import model.Console;
 
 public class Test {
@@ -10,6 +12,9 @@ public class Test {
 		Console c3 = new Console("Wii");
 		Console c4 = new Console("Wii U");
 		Console c5 = new Console("Switch");
+		
+		Adresse ab1 = new Adresse(5,"rue Baudrimont","Toulouse");
+		Boutique b1 = new Boutique("GameOne", ab1);
 
 	}
 
