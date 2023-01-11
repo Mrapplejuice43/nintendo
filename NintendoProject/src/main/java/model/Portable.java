@@ -1,0 +1,16 @@
+package model;
+
+public class Portable extends Console {
+
+	public Portable(String nom) {
+		super(nom);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Portable [getNom()=" + getNom() + ", toString()=" + super.toString() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + "]";
+	}
+
+}
