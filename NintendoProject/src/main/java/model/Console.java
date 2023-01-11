@@ -1,8 +1,9 @@
 package model;
 
+
 import java.time.LocalDate;
 
-public class Console {
+public abstract class Console {
 
 	private String nom;
 	private double prix;
@@ -48,10 +49,6 @@ public class Console {
 		this.nom = nom;
 	}
 
-	@Override
-	public String toString() {
-		return "Console [nom=" + nom + "]";
-	}
 	
 	
 }
