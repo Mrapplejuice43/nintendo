@@ -1,13 +1,18 @@
 package test;
 
 import java.time.LocalDate;
-
 import model.Adresse;
 import model.Boutique;
 import model.Console;
 import model.Hybride;
 import model.Portable;
 import model.Salon;
+
+import java.util.List;
+
+import model.Client;
+import model.Jeu;
+
 
 public class Test {
 
@@ -21,6 +26,18 @@ public class Test {
 		
 		Adresse ab1 = new Adresse(5,"rue Baudrimont","Toulouse");
 		Boutique b1 = new Boutique("GameOne", ab1);
+		
+		Jeu j1= new Jeu("mario",c1,b1);
+		Jeu j2= new Jeu("luigi",c2,b1);
+		
+
+		
+		Client client1 =new Client("Eliot","Doremi");
+		Client client2 =new Client("Bartis","Salvador");
+		client1.ajoutAchats(j1);
+		client2.ajoutAchats(j2);
+		
+		
 
 	}
 

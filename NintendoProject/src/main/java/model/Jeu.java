@@ -2,25 +2,25 @@ package model;
 
 import java.util.List;
 
-public class Jeu {
+public class Jeu  {
 
 	private String titre;
 	private Console console;
 	private Boutique boutique;
 	
+
 	
-	public Jeu(String titre, Console console,Boutique boutique) {
+	public Jeu(String titre, Console console, Boutique boutique) {
+		super();
 		this.titre = titre;
 		this.console = console;
 		this.boutique = boutique;
 	}
 
 
-
 	public String getTitre() {
 		return titre;
 	}
-
 
 
 	public void setTitre(String titre) {

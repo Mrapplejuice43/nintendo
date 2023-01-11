@@ -3,6 +3,7 @@ package model;
 public class Boutique {
 	String nom;
 	Adresse adresse;
+	
 	public Boutique(String nom, Adresse adresse) {
 		super();
 		this.nom = nom;
